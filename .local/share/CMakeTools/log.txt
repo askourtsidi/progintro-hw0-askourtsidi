@@ -1,0 +1,266 @@
+2024-11-06T21:10:56.594Z [info] [proc] Executing command: /usr/bin/X11/cmake --version
+2024-11-06T21:10:56.642Z [info] [proc] Executing command: /usr/bin/X11/cmake -E capabilities
+2024-11-06T21:10:56.726Z [debug] [main] Safe constructing new CMakeProject instance
+2024-11-06T21:10:56.727Z [debug] [variant] Constructing VariantManager
+2024-11-06T21:10:56.728Z [debug] [main] Constructing new CMakeProject instance
+2024-11-06T21:10:56.728Z [debug] [main] Starting CMake Tools second-phase init
+2024-11-06T21:10:56.730Z [debug] [expand] expanded ${workspaceFolder}
+2024-11-06T21:10:56.742Z [debug] [kit] Not reading non-existent kits file: /home/users/sdi2400181/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-06T21:10:56.745Z [debug] [kit] Not reading non-existent kits file: /home/users/sdi2400181/askhshlab04/.vscode/cmake-kits.json
+2024-11-06T21:10:56.894Z [info] [variant] Loaded new set of variants
+2024-11-06T21:10:56.967Z [debug] [main] CMakeProject instance initialization complete.
+2024-11-06T21:10:57.279Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2024-11-06T21:10:57.281Z [debug] [kitsController] Rescanning for kits
+2024-11-06T21:10:57.281Z [debug] [kit] Scanning for Kits on system
+2024-11-06T21:10:57.284Z [debug] [kit] Scanning directory /tmp/sdi2400181/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli for compilers
+2024-11-06T21:10:57.284Z [debug] [kit] Scanning directory /home/users/sdi2400181/.local/bin for compilers
+2024-11-06T21:10:57.289Z [debug] [kit] Skipping scan of not existing path /home/newapps/SUNWspro/bin
+2024-11-06T21:10:57.289Z [debug] [kit] Found 0 kits in directory /home/newapps/SUNWspro/bin
+2024-11-06T21:10:57.289Z [debug] [kit] Skipping scan of not existing path /home/appl/gcc/bin
+2024-11-06T21:10:57.289Z [debug] [kit] Found 0 kits in directory /home/appl/gcc/bin
+2024-11-06T21:10:57.289Z [debug] [kit] Skipping scan of not existing path /home/appl/gdb/bin
+2024-11-06T21:10:57.290Z [debug] [kit] Found 0 kits in directory /home/appl/gdb/bin
+2024-11-06T21:10:57.290Z [debug] [kit] Skipping scan of not existing path /usr/ccs/bin
+2024-11-06T21:10:57.290Z [debug] [kit] Found 0 kits in directory /usr/ccs/bin
+2024-11-06T21:10:57.290Z [debug] [kit] Scanning directory /usr/bin/X11 for compilers
+2024-11-06T21:10:57.290Z [debug] [kit] Scanning directory /bin for compilers
+2024-11-06T21:10:57.290Z [debug] [kit] Scanning directory /usr/bin for compilers
+2024-11-06T21:10:57.291Z [debug] [kit] Skipping scan of not existing path /home/appl/mosaic
+2024-11-06T21:10:57.291Z [debug] [kit] Found 0 kits in directory /home/appl/mosaic
+2024-11-06T21:10:57.291Z [debug] [kit] Scanning directory /usr/ucb for compilers
+2024-11-06T21:10:57.291Z [debug] [kit] Scanning directory /etc for compilers
+2024-11-06T21:10:57.291Z [debug] [kit] Skipping scan of not existing path /usr/etc
+2024-11-06T21:10:57.291Z [debug] [kit] Found 0 kits in directory /usr/etc
+2024-11-06T21:10:57.291Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2024-11-06T21:10:57.292Z [debug] [kit] Skipping scan of not existing path /home/appl/emacs/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Found 0 kits in directory /home/appl/emacs/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Skipping scan of not existing path /home/appl/ghostscript/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Found 0 kits in directory /home/appl/ghostscript/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Skipping scan of not existing path /home/appl/gzip/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Found 0 kits in directory /home/appl/gzip/bin
+2024-11-06T21:10:57.292Z [debug] [kit] Scanning directory . for compilers
+2024-11-06T21:10:57.297Z [debug] [kit] Skipping scan of not existing path /snap/bin
+2024-11-06T21:10:57.297Z [debug] [kit] Found 0 kits in directory /snap/bin
+2024-11-06T21:10:57.297Z [debug] [kit] Scanning directory /usr/lib/jvm/java-8-oracle/bin for compilers
+2024-11-06T21:10:57.297Z [debug] [kit] Skipping scan of not existing path /usr/lib/jvm/java-8-oracle/db/bin
+2024-11-06T21:10:57.298Z [debug] [kit] Found 0 kits in directory /usr/lib/jvm/java-8-oracle/db/bin
+2024-11-06T21:10:57.298Z [debug] [kit] Scanning directory /usr/lib/jvm/java-8-oracle/jre/bin for compilers
+2024-11-06T21:10:57.302Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-11-06T21:10:57.302Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-11-06T21:10:57.302Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-11-06T21:10:57.302Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-11-06T21:10:57.302Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2024-11-06T21:10:57.303Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-11-06T21:10:57.303Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-11-06T21:10:57.303Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-11-06T21:10:57.303Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-11-06T21:10:57.304Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-11-06T21:10:57.304Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-11-06T21:10:57.304Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-11-06T21:10:57.304Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-11-06T21:10:57.313Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-11-06T21:10:57.346Z [debug] [kit] Found 0 kits in directory /tmp/sdi2400181/.vscode-server/cli/servers/Stable-65edc4939843c90c34d61f4ce11704f09d3e5cb6/server/bin/remote-cli
+2024-11-06T21:10:57.346Z [debug] [kit] Found 0 kits in directory /home/users/sdi2400181/.local/bin
+2024-11-06T21:10:57.355Z [debug] [kit] Testing GCC binary: /usr/bin/X11/c89-gcc
+2024-11-06T21:10:57.355Z [info] [proc] Executing command: /usr/bin/X11/c89-gcc -v
+2024-11-06T21:10:57.374Z [debug] [kit] Testing GCC binary: /usr/bin/X11/c99-gcc
+2024-11-06T21:10:57.375Z [info] [proc] Executing command: /usr/bin/X11/c99-gcc -v
+2024-11-06T21:10:57.427Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc
+2024-11-06T21:10:57.428Z [info] [proc] Executing command: /usr/bin/X11/gcc -v
+2024-11-06T21:10:57.436Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc-10
+2024-11-06T21:10:57.437Z [info] [proc] Executing command: /usr/bin/X11/gcc-10 -v
+2024-11-06T21:10:57.449Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc-5
+2024-11-06T21:10:57.450Z [info] [proc] Executing command: /usr/bin/X11/gcc-5 -v
+2024-11-06T21:10:57.454Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc-7
+2024-11-06T21:10:57.455Z [info] [proc] Executing command: /usr/bin/X11/gcc-7 -v
+2024-11-06T21:10:57.464Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc-8
+2024-11-06T21:10:57.465Z [info] [proc] Executing command: /usr/bin/X11/gcc-8 -v
+2024-11-06T21:10:57.479Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc-9
+2024-11-06T21:10:57.480Z [info] [proc] Executing command: /usr/bin/X11/gcc-9 -v
+2024-11-06T21:10:57.618Z [debug] [kit] Testing GCC binary: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:57.618Z [info] [proc] Executing command: /usr/bin/X11/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:57.623Z [debug] [kit] Testing GCC binary: /usr/bin/X11/riscv64-linux-gnu-gcc-9
+2024-11-06T21:10:57.624Z [info] [proc] Executing command: /usr/bin/X11/riscv64-linux-gnu-gcc-9 -v
+2024-11-06T21:10:57.660Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:57.661Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:57.680Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc-10
+2024-11-06T21:10:57.681Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc-10 -v
+2024-11-06T21:10:57.685Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc-5
+2024-11-06T21:10:57.685Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc-5 -v
+2024-11-06T21:10:57.699Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc-7
+2024-11-06T21:10:57.700Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc-7 -v
+2024-11-06T21:10:57.711Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc-8
+2024-11-06T21:10:57.711Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc-8 -v
+2024-11-06T21:10:57.723Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc-9
+2024-11-06T21:10:57.724Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc-9 -v
+2024-11-06T21:10:57.770Z [debug] [kit] Found 0 kits in directory /bin
+2024-11-06T21:10:57.789Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-11-06T21:10:57.790Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-11-06T21:10:57.805Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-11-06T21:10:57.806Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-11-06T21:10:57.854Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-11-06T21:10:57.854Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-11-06T21:10:57.864Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-10
+2024-11-06T21:10:57.864Z [info] [proc] Executing command: /usr/bin/gcc-10 -v
+2024-11-06T21:10:57.868Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-5
+2024-11-06T21:10:57.869Z [info] [proc] Executing command: /usr/bin/gcc-5 -v
+2024-11-06T21:10:57.883Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-7
+2024-11-06T21:10:57.884Z [info] [proc] Executing command: /usr/bin/gcc-7 -v
+2024-11-06T21:10:57.895Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-8
+2024-11-06T21:10:57.896Z [info] [proc] Executing command: /usr/bin/gcc-8 -v
+2024-11-06T21:10:57.910Z [debug] [kit] Testing GCC binary: /usr/bin/gcc-9
+2024-11-06T21:10:57.910Z [info] [proc] Executing command: /usr/bin/gcc-9 -v
+2024-11-06T21:10:58.028Z [debug] [kit] Testing GCC binary: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.028Z [info] [proc] Executing command: /usr/bin/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:58.048Z [debug] [kit] Testing GCC binary: /usr/bin/riscv64-linux-gnu-gcc-9
+2024-11-06T21:10:58.048Z [info] [proc] Executing command: /usr/bin/riscv64-linux-gnu-gcc-9 -v
+2024-11-06T21:10:58.096Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.096Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.104Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-10
+2024-11-06T21:10:58.109Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-10 -v
+2024-11-06T21:10:58.116Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-5
+2024-11-06T21:10:58.116Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-5 -v
+2024-11-06T21:10:58.126Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-7
+2024-11-06T21:10:58.126Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-7 -v
+2024-11-06T21:10:58.132Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-11-06T21:10:58.133Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-8 -v
+2024-11-06T21:10:58.148Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc-9
+2024-11-06T21:10:58.149Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-9 -v
+2024-11-06T21:10:58.179Z [debug] [kit] Found 0 kits in directory /usr/ucb
+2024-11-06T21:10:58.201Z [debug] [kit] Found 0 kits in directory /etc
+2024-11-06T21:10:58.201Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-11-06T21:10:58.209Z [debug] [kit] Found 0 kits in directory /usr/lib/jvm/java-8-oracle/bin
+2024-11-06T21:10:58.210Z [debug] [kit] Found 0 kits in directory /usr/lib/jvm/java-8-oracle/jre/bin
+2024-11-06T21:10:58.211Z [debug] [kit] Found 0 kits in directory .
+2024-11-06T21:10:58.616Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-9
+2024-11-06T21:10:58.624Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-8
+2024-11-06T21:10:58.626Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-7
+2024-11-06T21:10:58.627Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-5
+2024-11-06T21:10:58.630Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc-10
+2024-11-06T21:10:58.631Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.638Z [debug] [kit] Detected GCC compiler: /usr/bin/riscv64-linux-gnu-gcc-9
+2024-11-06T21:10:58.640Z [debug] [kit] Detected GCC compiler: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.641Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-9
+2024-11-06T21:10:58.643Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-8
+2024-11-06T21:10:58.650Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-7
+2024-11-06T21:10:58.651Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-5
+2024-11-06T21:10:58.653Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc-10
+2024-11-06T21:10:58.655Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-11-06T21:10:58.657Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-11-06T21:10:58.665Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-11-06T21:10:58.666Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc-9
+2024-11-06T21:10:58.668Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc-8
+2024-11-06T21:10:58.670Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc-7
+2024-11-06T21:10:58.682Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc-5
+2024-11-06T21:10:58.684Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc-10
+2024-11-06T21:10:58.686Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.687Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/riscv64-linux-gnu-gcc-9
+2024-11-06T21:10:58.689Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.690Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc-9
+2024-11-06T21:10:58.692Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc-8
+2024-11-06T21:10:58.697Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc-7
+2024-11-06T21:10:58.698Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc-5
+2024-11-06T21:10:58.701Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc-10
+2024-11-06T21:10:58.702Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc
+2024-11-06T21:10:58.704Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/c99-gcc
+2024-11-06T21:10:58.713Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/c89-gcc
+2024-11-06T21:10:58.816Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.817Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.826Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.827Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.835Z [debug] [kit] Testing GCC binary: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.835Z [info] [proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.843Z [debug] [kit] Testing GCC binary: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.844Z [info] [proc] Executing command: /usr/bin/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:58.851Z [debug] [kit] Testing GCC binary: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.852Z [info] [proc] Executing command: /usr/bin/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:58.864Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-11-06T21:10:58.865Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-11-06T21:10:58.875Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-11-06T21:10:58.876Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-11-06T21:10:58.885Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-11-06T21:10:58.886Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-11-06T21:10:58.895Z [debug] [kit] Testing GCC binary: /usr/bin/c99-gcc
+2024-11-06T21:10:58.895Z [info] [proc] Executing command: /usr/bin/c99-gcc -v
+2024-11-06T21:10:58.903Z [debug] [kit] Testing GCC binary: /usr/bin/c89-gcc
+2024-11-06T21:10:58.904Z [info] [proc] Executing command: /usr/bin/c89-gcc -v
+2024-11-06T21:10:58.912Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.912Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.922Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.922Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.931Z [debug] [kit] Testing GCC binary: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:58.932Z [info] [proc] Executing command: /usr/bin/X11/x86_64-linux-gnu-gcc -v
+2024-11-06T21:10:58.936Z [debug] [kit] Testing GCC binary: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.937Z [info] [proc] Executing command: /usr/bin/X11/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:58.945Z [debug] [kit] Testing GCC binary: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:58.946Z [info] [proc] Executing command: /usr/bin/X11/riscv64-linux-gnu-gcc -v
+2024-11-06T21:10:58.956Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc
+2024-11-06T21:10:58.957Z [info] [proc] Executing command: /usr/bin/X11/gcc -v
+2024-11-06T21:10:58.962Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc
+2024-11-06T21:10:58.963Z [info] [proc] Executing command: /usr/bin/X11/gcc -v
+2024-11-06T21:10:58.972Z [debug] [kit] Testing GCC binary: /usr/bin/X11/gcc
+2024-11-06T21:10:58.973Z [info] [proc] Executing command: /usr/bin/X11/gcc -v
+2024-11-06T21:10:58.981Z [debug] [kit] Testing GCC binary: /usr/bin/X11/c99-gcc
+2024-11-06T21:10:58.982Z [info] [proc] Executing command: /usr/bin/X11/c99-gcc -v
+2024-11-06T21:10:58.994Z [debug] [kit] Testing GCC binary: /usr/bin/X11/c89-gcc
+2024-11-06T21:10:58.995Z [info] [proc] Executing command: /usr/bin/X11/c89-gcc -v
+2024-11-06T21:10:59.035Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/c89-gcc
+2024-11-06T21:10:59.037Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/c99-gcc
+2024-11-06T21:10:59.039Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc
+2024-11-06T21:10:59.041Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc
+2024-11-06T21:10:59.042Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/gcc
+2024-11-06T21:10:59.044Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:59.046Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/riscv64-linux-gnu-gcc
+2024-11-06T21:10:59.054Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.056Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.058Z [debug] [kit] Detected GCC compiler: /usr/bin/X11/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.059Z [debug] [kit] Detected GCC compiler: /usr/bin/c89-gcc
+2024-11-06T21:10:59.061Z [debug] [kit] Detected GCC compiler: /usr/bin/c99-gcc
+2024-11-06T21:10:59.070Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-11-06T21:10:59.072Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-11-06T21:10:59.074Z [debug] [kit] Detected GCC compiler: /usr/bin/gcc
+2024-11-06T21:10:59.075Z [debug] [kit] Detected GCC compiler: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:59.077Z [debug] [kit] Detected GCC compiler: /usr/bin/riscv64-linux-gnu-gcc
+2024-11-06T21:10:59.078Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.080Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.090Z [debug] [kit] Detected GCC compiler: /usr/bin/x86_64-linux-gnu-gcc
+2024-11-06T21:10:59.092Z [debug] [kit] Found 16 kits in directory /usr/bin/X11
+2024-11-06T21:10:59.092Z [debug] [kit] Found 16 kits in directory /usr/bin
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 10.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 5.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 7.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 riscv64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 riscv64-linux-gnu
+2024-11-06T21:10:59.093Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 10.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 5.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 7.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 10.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 5.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 7.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.094Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 9.4.0 riscv64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 9.4.0 riscv64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 10.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 5.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 7.5.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 8.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.095Z [info] [kit] Found Kit (trusted): GCC 9.4.0 x86_64-linux-gnu
+2024-11-06T21:10:59.097Z [debug] [kitsController] Saving kits to /home/users/sdi2400181/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-06T21:10:59.097Z [debug] [kitsController] Saving new kits to /home/users/sdi2400181/.local/share/CMakeTools/cmake-tools-kits.json
+2024-11-06T21:11:03.897Z [debug] [main] Not starting CMake driver: no kit selected
+2024-11-06T21:13:11.584Z [debug] [main] Not starting CMake driver: no kit selected
+2024-11-06T21:13:16.621Z [debug] [main] Not starting CMake driver: no kit selected
+2024-11-06T21:17:35.102Z [debug] [extension] Deactivate CMakeTools

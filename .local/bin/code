@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# trim whitespaces from USER
+USER="$(echo -e "${USER}" | tr -d '[:space:]')"
+
+# create dirs under /tmp/<user>
+LC_ALL=en_US.UTF-8 ~/.local/bin/code-create-dirs
+
+# install cpptools extension, if not there
+(ls /tmp/$USER/.vscode/extensions | grep -q cpptools) ||
+	/usr/share/code/bin/code --install-extension ms-vscode.cpptools
+
+# run the real code
+/usr/share/code/bin/code $*

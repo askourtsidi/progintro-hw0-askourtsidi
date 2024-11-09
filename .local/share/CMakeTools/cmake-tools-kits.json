@@ -1,0 +1,46 @@
+[
+  {
+    "name": "GCC 10.5.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/gcc-10",
+      "CXX": "/usr/bin/X11/g++-10"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 5.5.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/gcc-5"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 7.5.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/gcc-7"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 8.4.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/gcc-8"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 9.4.0 riscv64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/riscv64-linux-gnu-gcc"
+    },
+    "isTrusted": true
+  },
+  {
+    "name": "GCC 9.4.0 x86_64-linux-gnu",
+    "compilers": {
+      "C": "/usr/bin/X11/gcc",
+      "CXX": "/usr/bin/X11/g++"
+    },
+    "isTrusted": true
+  }
+]

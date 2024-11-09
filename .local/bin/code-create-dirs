@@ -1,0 +1,58 @@
+#!/usr/bin/perl
+use strict;
+
+use File::Spec;
+
+my $user = $ENV{USER};
+$user =~ s/\s//g;	# trim whitespace
+$user	or die "no user";
+
+# create /tmp/$user
+if(! -d "/tmp/$user") {
+	mkdir "/tmp/$user";
+	chmod 0700, "/tmp/$user";
+}
+
+create_link(".vscode/extensions");
+create_link(".vscode-server");
+create_link(".config/Code/User/workspaceStorage");
+create_link(".config/Code/Cache");
+create_link(".config/Code/CachedData");
+create_link(".cache/vscode-cpptools");
+
+
+sub parent {
+	my @dirs = File::Spec->splitdir(shift);
+	pop @dirs;
+	return File::Spec->catdir(@dirs);
+}
+
+sub create_link {
+	my $dir = shift;
+	my $target = "/tmp/$user/$dir";
+
+	# create parent of $target
+	my $target_parent = parent($target);
+	system "mkdir -p $target_parent";
+
+	# if $dir exists but is not a link, move to $target (or delete if $target exists)
+	if(-e $dir && ! -l $dir) {
+		if(-e $target) {
+			system "rm -rf $dir";
+		} else {
+			system "mv $dir $target_parent";
+		}
+	}
+
+	# create $target, if not exists
+	if(! -e $target) {
+		mkdir $target;
+	}
+
+	# link $dir, if not exists
+	if(! -e $dir) {
+		my $dir_parent = parent($dir);
+		system "mkdir -p $dir_parent"	if $dir_parent;
+		system "ln -s $target $dir_parent";
+	}
+}

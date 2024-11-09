@@ -1,0 +1,43 @@
+/* Get size_t, wchar_t and NULL from <stddef.h>.  */
+#define __need_size_t
+extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+/* Likewise for `float' and `long double' sizes of floating-point numbers.  */
+extern int strfromd (char *__dest, size_t __size, const char *__format,
+extern int strfromf (char *__dest, size_t __size, const char *__format,
+extern int strfroml (char *__dest, size_t __size, const char *__format,
+extern int strfromf16 (char *__dest, size_t __size, const char * __format,
+extern int strfromf32 (char *__dest, size_t __size, const char * __format,
+extern int strfromf64 (char *__dest, size_t __size, const char * __format,
+extern int strfromf128 (char *__dest, size_t __size, const char * __format,
+extern int strfromf32x (char *__dest, size_t __size, const char * __format,
+extern int strfromf64x (char *__dest, size_t __size, const char * __format,
+extern int strfromf128x (char *__dest, size_t __size, const char * __format,
+			size_t __statelen) __THROW __nonnull ((2));
+			size_t __statelen,
+extern void *malloc (size_t __size) __THROW __attribute_malloc__
+     __attribute_alloc_size__ ((1)) __wur;
+extern void *calloc (size_t __nmemb, size_t __size)
+     __THROW __attribute_malloc__ __attribute_alloc_size__ ((1, 2)) __wur;
+extern void *realloc (void *__ptr, size_t __size)
+     __THROW __attribute_warn_unused_result__ __attribute_alloc_size__ ((2));
+extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
+     __attribute_alloc_size__ ((2, 3));
+extern void *valloc (size_t __size) __THROW __attribute_malloc__
+     __attribute_alloc_size__ ((1)) __wur;
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     __THROW __attribute_malloc__ __attribute_alloc_size__ ((2)) __wur;
+		      size_t __nmemb, size_t __size, __compar_fn_t __compar)
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+extern void qsort_r (void *__base, size_t __nmemb, size_t __size,
+		   size_t __len) __THROW __nonnull ((3, 4, 5));
+		   size_t __len) __THROW __nonnull ((3, 4, 5));
+		    char *__restrict __buf, size_t __len)
+		    char *__restrict __buf, size_t __len)
+extern int mblen (const char *__s, size_t __n) __THROW;
+		   const char *__restrict __s, size_t __n) __THROW;
+extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+			const char *__restrict __s, size_t __n) __THROW;
+extern size_t wcstombs (char *__restrict __s,
+			const wchar_t *__restrict __pwcs, size_t __n)
+extern int ptsname_r (int __fd, char *__buf, size_t __buflen)
