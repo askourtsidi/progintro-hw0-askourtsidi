@@ -5,14 +5,13 @@ int main(){
  long long int leftcost,rightcost;
 
 
-   while ( ){
+   while (1){
      
     printf("Please enter the cost of going left:");
     if (scanf("%lld", &leftcost) == EOF) break;
 
     printf("Please enter the cost of going right:");
-    if (scanf("%lld", leftcost) == EOF) break;
-    
+
      if (leftcost<=rightcost){
        printf("Go left.\n");
        
@@ -33,3 +32,4 @@ int main(){
    }
  
  return 0; 
+}
