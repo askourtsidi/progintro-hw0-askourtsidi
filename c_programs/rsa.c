@@ -34,13 +34,13 @@ long long int prime(long long int a){
 }
 
 //συνάρτηση encrypt(m)
-long long int encrypt(long long int m, long long int e, long long int N){
+long long unsigned int encrypt(long long int m, long long int e, long long int N){
     int x=(int)pow(m,e);
     return (x%N);
 }
 
 //συνάρτηση decrypt(c)
-long long int decrypt(long long int c, long long int d, long long int N){
+long long unsigned int decrypt(long long int c, long long int d, long long int N){
     int y=(int)pow(c,d);
     return (y%N);
 }
@@ -113,7 +113,7 @@ int main(int argc, char *argv[]){
                    return 1;
                }
                 
-                printf("%lld\n",encrypt(m,e,N));
+                printf("%llu\n",encrypt(m,e,N));
             }
         }
         else {
@@ -124,7 +124,7 @@ int main(int argc, char *argv[]){
                 return 1;
             }
             else {
-                printf("%lld\n",decrypt(c,d,N));
+                printf("%llu\n",decrypt(c,d,N));
             }
         }
     }
