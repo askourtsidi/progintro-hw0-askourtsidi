@@ -1,6 +1,7 @@
-2024-11-06T21:10:56.594Z [info] [proc] Executing command: /usr/bin/X11/cmake --version
-2024-11-06T21:10:56.642Z [info] [proc] Executing command: /usr/bin/X11/cmake -E capabilities
-2024-11-06T21:10:56.726Z [debug] [main] Safe constructing new CMakeProject instance
+2024-11-09T18:13:47.568Z [info] [proc] Executing command: cmake --version
+2024-11-09T18:13:47.631Z [info] [proc] Executing command: cmake -E capabilities
+2024-11-09T18:28:17.917Z [debug] [extension] Deactivate CMakeTools
+afe constructing new CMakeProject instance
 2024-11-06T21:10:56.727Z [debug] [variant] Constructing VariantManager
 2024-11-06T21:10:56.728Z [debug] [main] Constructing new CMakeProject instance
 2024-11-06T21:10:56.728Z [debug] [main] Starting CMake Tools second-phase init
