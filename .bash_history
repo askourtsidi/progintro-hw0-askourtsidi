@@ -1,51 +1,3 @@
-gcc -o fib fib.c
-gcc -o fib fib.c
-gcc -o fib fib.c
-gcc -o fib fib.c
-gcc -o fib.c fib
-ls
-cd c_programs
-ls
-gcc -o fib fib.c
-gcc -o fib fib.c
-gcc -o fib fib.c
-./fib
-./fib
-ls
-cd c_programs
-ls
-gcc -o fib fib.c
-./fib
-./fib
-gcc -o fib fib.c
-ls
-cd c_programs
-ls
-gcc -o myprog myprog.c
-gcc -o myprog myprog.c
-gcc -o myprog myprog.c
-ls
-cd c_programs
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-./myprog
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-./myprog
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-./myprog
-./myprog
-./myprog
-gcc -o myprogr myprog.c
-./myprog
-gcc -o myprogr myprog.c
-./myprog
-gcc -o myprogr myprog.c
 ./myprog
 gcc -o myprogr myprog.c
 gcc -o myprogr myprog.c
@@ -498,3 +450,51 @@ git add gcd.c
 git commit
 clear
 pwd
+git clone git@github.com:progintro/hw1-askourtsidi.git
+cat ~/.ssh/id_rsa.pub 
+git clone git@github.com:progintro/hw1-askourtsidi.git
+git add .
+clear
+cd hw1-askourtsidi/
+git add .
+git commit 
+git push
+gcc -O3 -Wall -Wextra -Werror -pedantic -o gcd gcd.c
+cd gcd/
+gcc -O3 -Wall -Wextra -Werror -pedantic -o gcd gcd.c
+clear
+gcc -O3 -Wall -Wextra -Werror -pedantic -o gcd gcd.c
+ls
+cd src/
+gcc -O3 -Wall -Wextra -Werror -pedantic -o gcd gcd.c
+ ./gcd 78423360000000000 35241600000000
+cd ../..
+ls
+cd rsa/src/
+ls
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+clear
+gcc -O3 -Wall -Wextra -Werror -lm -pedantic -o rsa rsa.c
+clear
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+gcc -lm -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+clear
+gcc -lm -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+clear
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c
+gcc -O3 -Wall -Wextra -Werror -pedantic -o -lm rsa rsa.c
+ls
+gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c -lm
+./rsa 
+clear
+echo 42 | ./rsa enc 5 173 17 19
+clear
+cd c_pograms
+cd c_programs
+gcc -o point point.c
+gcc -o point point.c
+./point
+cd c_programs
+gcc -o person person.c

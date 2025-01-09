@@ -3,9 +3,9 @@
 struct point {
     double x;
     double y;
-}
+};
 
-struct point middle(struct oint a, struct point b){
+struct point middle(struct point a, struct point b){
     struct point m;
     m.x=(a.x+b.x)/2;
     m.y=(a.y+b.y)/2;
