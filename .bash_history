@@ -1,29 +1,3 @@
-./myprog
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-gcc -o myprogr myprog.c
-./myprog
-gcc -o myprogr myprog.c
-./myprog
-
-cat myprog.c 
-gcc -o myprogr myprog.c
-gcc -o myprog myprog.c
-./myprog
-./myprog
-./myprog
-./myprog
-gcc -o myprog myprog.c
-./myprog
-gcc -o sieve sieve.c
-ls
-cd c_programs
-gcc -o sieve sieve.c
-gcc -o sieve sieve.c
-gcc -o sieve sieve.c
-gcc -o sieve sieve.c
-./ sieve
 ./sieve
 cd c_programs
 gcc -o sieve sieve.c
@@ -498,3 +472,29 @@ gcc -o point point.c
 ./point
 cd c_programs
 gcc -o person person.c
+cd future/src
+cdhw2-askourtsidi/ future/src
+cd hw2-askourtsidi/ future/src
+cd hw2-askourtsidi
+cd future/src
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+ ./future
+cat values.txt
+cat values.txt
+./future values.txt --window 10
+./future values.txt --window 3
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+./future values.txt --window 3
+./future values.txt --window 3
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+gcc -Os -Wall -Wextra -Werror -pedantic -o future future.c
+./future values.txt --window 3
+exit
